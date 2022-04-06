@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <a id="showHighestScore" href="#">View Highscore</a href="#">
+                <p id="timer">Time Left: 60s</p>
+            </header>
+            
+            <section class="startScreen">
+                <h1>Quiz Challenge</h1>
+                <p>This is a quiz on various topics. Answer all the questions within the given time. If you get a question wrong, 10 seconds will be deducted from your remaining time. Good luck!</p>
+            </section>
+            
+            <section class="start">
+                <button id="startQuiz">Start Game</button>
+            </section>
+            
+            <section class="questions hide">
+                <h2>What is your age?</h2>
+                <div class="options">
+                    <button>20</button>
+                    <button>15</button>
+                    <button>10</button>
+                    <button>25</button>
+                </div>
+            </section>
+            
+            <section class="highScores hide">
+                <h1>Highest Scores Are:</h1>
+                <ol>
+                    <li>12 pts</li>
+                    <li>1pts</li>
+                </ol>
+            </section>
+            
+            <section class="initials hide">
+                <h1>All done!</h1>
+                <h3>Your final score is: </h3>
+                <input type="text" placeholder="Enter your initials">
+                <button id="initialButton">Submit</button>
+            </section>
+            
+            <script src="script.js"></script>
+            
+        </main>
+        </body>
+        
+        </html>
